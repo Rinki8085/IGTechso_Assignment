@@ -1,0 +1,22 @@
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   padding:20px;
+   font-size:20px;
+   font-weight: bold;
+}
+
+.navbar>div:nth-child(2), .navbar>div:nth-child(3){
+   display: flex;
+   justify-content:space-between;
+   gap:30px;
+}
+
+.sign_in{
+   background-color: white;
+   border:none;
+   text-transform: uppercase;
+   padding:5px;
+   font-weight:bold;
+   cursor:pointer;
+}

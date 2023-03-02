@@ -1,0 +1,60 @@
+.challenge{
+   padding:20px 20px 40px 20px;
+}
+
+.skills{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding:50px 50px 50px 50px;
+}
+
+.skills>div:nth-child(1){
+   transform:rotate(-90deg);
+}
+
+.skills>div:nth-child(2){
+   text-transform: uppercase;
+   text-align: center;
+   font-size:25px;
+   line-height:1em;
+}
+
+.skills>div:nth-child(3){
+   transform:rotate(90deg);
+}
+
+.arrow_button{
+   width:60px;
+   height:60px;
+   color:white;
+   background-color: transparent;
+   font-size:83px;
+   cursor:pointer;
+}
+
+a{
+   text-decoration: none;
+   color:white;
+}
+
+.start{
+   background-color: transparent;
+   color:white;
+   font-size:25px;
+   text-transform: uppercase;
+   font-weight:bold;
+   border:none;
+   cursor:pointer;
+}
+
+.content{
+   backdrop-filter:blur(1000px);
+   background-color: black;
+   color:black;
+   width:80%;
+}
+
+.modalWrapper > div > div{
+   text-align: center;
+}

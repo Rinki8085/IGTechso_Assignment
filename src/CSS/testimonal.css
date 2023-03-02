@@ -1,0 +1,34 @@
+.testimonal{
+   padding:40px 20px 40px 20px;
+}
+
+.testimonal_user{
+   text-align: center;
+   line-height: 0.3em;
+}
+
+.testimonal_user>p:nth-child(1){
+   font-size:2.5rem;
+   font-weight:bold;
+}
+
+.testimonal_user>p:nth-child(2){
+   color:blueviolet;
+   font-size:1.4rem;
+}
+
+.testimonal_slider{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-content: space-around;
+   gap:40px;
+   margin-top:60px;
+   line-height: 2.5em;
+   padding:20px 40px 0px 40px;
+}
+
+.img{
+   width:130px;
+   height:130px;
+   border-radius:50%;
+}

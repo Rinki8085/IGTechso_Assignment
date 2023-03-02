@@ -1,0 +1,62 @@
+.subscribe{
+   padding:40px 20px 40px 20px;
+   display:flex;
+   flex-direction: row;
+   background-image:url('./download.jpg');
+   background-repeat: no-repeat;
+   background-position: left;
+   background-size:700px;
+}
+
+.subscribe>div{
+   width:50%;
+}
+
+.subscribe>div:nth-child(2){
+   text-align: center;
+}
+
+.news_letter{
+   line-height:0.5em;
+}
+
+.news_letter>p:nth-child(1){
+   font-size:45px;
+   font-weight:bold;
+}
+
+.news_letter>p:nth-child(2){
+   color:blueviolet;
+   font-size:38px;
+}
+
+.form{
+   width:50%;
+   margin:auto;
+   padding:4%;
+}
+
+
+input[type='text'],input[type='email'], textarea{
+   width:100%;
+   border:2px solid blueviolet;
+   outline:none;
+   background-color: transparent;
+   margin-bottom:35px;
+   color:white;
+}
+
+.min_height{
+   height:35px;
+}
+
+.max_height{
+   height:90px;
+}
+input[type='submit']{
+   height:35px;
+   background-color: blueviolet;
+   color:white;
+   border:none;
+   cursor:pointer;
+}
